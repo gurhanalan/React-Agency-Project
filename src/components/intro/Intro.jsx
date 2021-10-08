@@ -18,7 +18,7 @@ const MainContainerBg = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -1;
+    z-index: -10;
 `;
 
 const Container = styled.div`
@@ -27,42 +27,62 @@ const Container = styled.div`
 `;
 
 const Left = styled.div`
-    flex: 1;
+    /* flex: 1; */
+    width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 3rem;
+    padding: 0 10%;
+    @media only screen and (max-width: 1230px) {
+        padding: 0 3%;
+    }
+
+    @media only screen and (max-width: 850px) {
+        width: 100%;
+        padding: 0 10%;
+    }
 `;
 const Right = styled.div`
-    flex: 1;
+    /* flex: 1; */
+    width: 50%;
     position: relative;
+
+    @media only screen and (max-width: 850px) {
+        display: none;
+    }
 `;
 
 const Title = styled.h1`
     font-size: 4rem;
-    width: 60%;
+    /* width: 60%; */
 `;
 
 const Desc = styled.p`
     font-size: 2rem;
     text-align: justify;
-    width: 60%;
+    /* width: 60%; */
 `;
 
 const Info = styled.div`
-    width: 60%;
+    /* width: 60%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media only screen and (max-width: 480px) {
+        flex-direction: column;
+        gap: 2rem;
+    }
 `;
 
 const InfoButton = styled.button`
     border: none;
     background-color: darkblue;
     font-size: 2rem;
-    height: 4rem;
-    padding: 0 2rem;
+    /* height: 4rem; */
+    padding: 0.5rem 2rem;
     text-transform: uppercase;
     color: white;
     border-radius: 1rem;
