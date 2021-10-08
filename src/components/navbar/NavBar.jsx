@@ -20,11 +20,17 @@ const Wrapper = styled.div`
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    @media only screen and (max-width: 480px) {
+        width: 50%;
+    }
 `;
 
 const Menu = styled.div`
     display: flex;
     align-items: center;
+    @media only screen and (max-width: 850px) {
+        display: none;
+    }
 `;
 
 const MenuItem = styled.a`
@@ -52,7 +58,7 @@ const NavBar = () => {
         <Container>
             <Wrapper>
                 <Logo>Agency</Logo>
-                
+
                 <Menu>
                     <MenuItem>Home</MenuItem>
                     <MenuItem>Features</MenuItem>
