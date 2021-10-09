@@ -1,4 +1,6 @@
+import Contact from "./components/contact/Contact";
 import Feature from "./components/feature/Feature";
+import Footer from "./components/Footer/Footer";
 import Intro from "./components/intro/Intro";
 import Price from "./components/price/Price";
 
@@ -11,6 +13,8 @@ const App = () => {
             <Feature />
             <Service />
             <Price />
+            <Contact />
+            <Footer />
         </div>
     );
 };
