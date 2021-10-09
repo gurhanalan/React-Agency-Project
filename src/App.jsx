@@ -1,6 +1,7 @@
 import Feature from "./components/feature/Feature";
 import Intro from "./components/intro/Intro";
-import NavBar from "./components/navbar/NavBar";
+import Price from "./components/price/Price";
+
 import Service from "./components/service/Service";
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
             <Intro />
             <Feature />
             <Service />
+            <Price />
         </div>
     );
 };
