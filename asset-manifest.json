@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Agency-Project/static/css/main.0ffa3993.chunk.css",
+    "main.js": "/React-Agency-Project/static/js/main.3235ab20.chunk.js",
+    "main.js.map": "/React-Agency-Project/static/js/main.3235ab20.chunk.js.map",
+    "runtime-main.js": "/React-Agency-Project/static/js/runtime-main.14153da2.js",
+    "runtime-main.js.map": "/React-Agency-Project/static/js/runtime-main.14153da2.js.map",
+    "static/js/2.4fb4e40e.chunk.js": "/React-Agency-Project/static/js/2.4fb4e40e.chunk.js",
+    "static/js/2.4fb4e40e.chunk.js.map": "/React-Agency-Project/static/js/2.4fb4e40e.chunk.js.map",
+    "index.html": "/React-Agency-Project/index.html",
+    "static/css/main.0ffa3993.chunk.css.map": "/React-Agency-Project/static/css/main.0ffa3993.chunk.css.map",
+    "static/js/2.4fb4e40e.chunk.js.LICENSE.txt": "/React-Agency-Project/static/js/2.4fb4e40e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/React-Agency-Project/static/media/GlacialIndifference-Regular.884dc679.otf",
+    "static/media/girl-tablet.b59dea94.png": "/React-Agency-Project/static/media/girl-tablet.b59dea94.png",
+    "static/media/handscellphone.54dd73ac.png": "/React-Agency-Project/static/media/handscellphone.54dd73ac.png",
+    "static/media/womancellphone.b1fe4a2f.png": "/React-Agency-Project/static/media/womancellphone.b1fe4a2f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14153da2.js",
+    "static/js/2.4fb4e40e.chunk.js",
+    "static/css/main.0ffa3993.chunk.css",
+    "static/js/main.3235ab20.chunk.js"
+  ]
+}
